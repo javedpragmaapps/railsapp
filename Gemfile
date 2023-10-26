@@ -31,6 +31,15 @@ gem 'jquery-rails'
 gem 'devise'
 gem 'bootstrap_form'
 
+#test group
+gem 'rspec-rails', '~> 3.6'
+gem 'factory_girl_rails'
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'capybara'
+gem 'poltergeist'
+gem 'database_cleaner'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
