@@ -41,6 +41,7 @@ gem 'poltergeist'
 gem 'database_cleaner'
 gem 'faker'
 gem 'phantomjs', :require => 'phantomjs/poltergeist'
+gem 'will_paginate', '~> 3.1.0'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
