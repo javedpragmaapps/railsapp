@@ -1,5 +1,5 @@
 <div class="single-post-list" id=<%= post_path(post.id) %>>
-  <%= truncate(post.title, :length => 60) %>
+  <%= link_to truncate(post.title, :length => 60), post_path(post.id) %> 
   <div class="post-content">
     <div class="posted-by">Posted by <%= post.user.name %></div>
     <h3><%= post.title %></h3> 
