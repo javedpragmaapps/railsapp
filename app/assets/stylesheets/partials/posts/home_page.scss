@@ -1,5 +1,5 @@
 .single-post-card {
-  min-height: 235px;
+  min-height: 135px;
   max-height: 135px;
   box-shadow: 1px 1px 4px rgba(0,0,0, 0.3);
   color: black;
@@ -20,9 +20,9 @@
   }
 }
 
-.card .post-content {
-  display: block;
-}
+// .card .post-content {
+//   display: block;
+// }
 
 .solid-color-mode, .border-color-mode {
   .post-text {
