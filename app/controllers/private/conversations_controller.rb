@@ -1,5 +1,4 @@
 class Private::ConversationsController < ApplicationController
-
     def create
       recipient_id = Post.find(params[:post_id]).user.id
       conversation = Private::Conversation.new(sender_id: current_user.id, 
@@ -17,5 +16,4 @@ class Private::ConversationsController < ApplicationController
         end
       end
     end
-
 end
