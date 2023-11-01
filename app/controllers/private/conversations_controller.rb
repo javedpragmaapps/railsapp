@@ -44,6 +44,15 @@ class Private::ConversationsController < ApplicationController
       #   format.js {render partial: 'posts/show/contact_user/message_form/success'}
       # end
     end
+    
+    def close
+      @conversation_id = params[:id].to_i
+      session[:private_conversations].delete(@conversation_id)
+    
+      respond_to do |format|
+        format.js
+      end
+    end
 
 
     
